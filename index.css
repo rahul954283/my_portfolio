@@ -1,0 +1,195 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  #profile-photo {
+    text-align: center;
+    padding: 30px 20px;
+  }
+  
+  .intro-text h1 {
+    font-size: 36px;
+    color: #003366;
+    margin-bottom: 5px;
+  }
+  
+  .intro-text h3 {
+    font-size: 20px;
+    color: #666;
+    margin-top: 0;
+    font-weight: normal;
+  }
+  .profile-img {
+    max-width: 200px;
+    border-radius: 50%; /* Makes it circular */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }
+  .profile-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+  }
+  /* Style for the navigation */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;  /* Centers the navigation links horizontally */
+  }
+  
+  nav ul li {
+    margin: 0 15px; /* Spacing between links */
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #000; /* Link color */
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #007BFF; /* Hover color */
+  }
+  
+  /* Basic style for the page */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f4f4f4;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #f4f4f4;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  .download-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .download-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+  }
+  
+  
+  .intro-text p {
+    max-width: 700px;
+    margin: 10px auto 30px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .photo-contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .profile-img {
+    max-width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }
+  
+  .contact-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .icon-btn {
+    font-size: 24px;
+    text-decoration: none;
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+    width: 44px;
+    height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s;
+  }
+  
+  .icon-btn:hover {
+    background-color: #0055aa;
+  }
+  
+  
+  section {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  h1, h2, h3 {
+    color: #003366;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #003366;
+    color: white;
+  }
+  
